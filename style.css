@@ -84,9 +84,15 @@ a.cta_button {
     padding: 50px;
     width: 100%;
     min-width: 100% !important;
+    /* flex-wrap: wrap; */
   }
   .row .col {
     flex-basis: 50%;
+  }
+  @media screen and(max-width:678px) {
+    .row .col {
+        flex-basis: 100%;
+      }
   }
 
 
